@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // code goes here
+window.onload = setInterval(GameLoop, 1000 / 10); //10fps
+
     console.log('Page loaded.');
 });

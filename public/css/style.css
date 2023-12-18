@@ -1,11 +1,18 @@
+
 body, h1, p {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Skyline_Tulsa.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
@@ -15,9 +22,50 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #106067;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    text-align: center;
 }
 
 p {
-    color: #666;
+    color: #ffffff;
+    text-align: center;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #0e2cd8 0%,
+    #1666a3 29%,
+    #12bdc6 67%,
+    #154192 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #36fbfe;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 55px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+#textbox {
+    background-color: #6666667e;
+    padding: 10px;
+    border: 3px blue;
 }
