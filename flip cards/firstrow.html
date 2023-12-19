@@ -1,0 +1,121 @@
+<div class="cardContainer inactive">
+  <div class="card">
+    <div class="side front">
+      <div class="img rhema"></div>
+      <div class="info">
+        <h2>Rhema</h2>
+        <p>Enjoy the Christmas lights with synchronized musical trees and dancing snowflakes, plus the ultimate photo backdrop by the park bridge</p>
+      </div>
+    </div>
+    <div class="side back">
+      <div class="info">
+        <h2>At a glance</h2>
+        <ul>
+          <li>The Rhema campus is located on 71st (Kenosha) between 145th (Aspen) and 161st (Elm) in Broken Arrow, Oklahoma.</li>
+          <li>Highlights include a 50-figure nativity scene, Noah’s ark and animals, and a synchronized musical display.</li>
+          <li>rhemalights.org</li>
+        </ul>
+        <div class="btn">
+          <h4>Learn More</h4>
+          <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cardContainer inactive">
+  <div class="card">
+    <div class="side front">
+      <div class="img jollytown"></div>
+      <div class="info">
+        <h2>JollyTown</h2>
+        <p>December 16th and 22nd Jolly Town is open until 10pm.
+December 17th, 18th, 19th, 20th, 21st Jolly Town is open until 9pm.</p>
+      </div>
+    </div>
+    <div class="side back">
+      <div class="info">
+        <h2>At a glance</h2>
+        <ul>
+          <li>Located at Tulsa’s Guthrie Green, located at 111 E Reconciliation Way, Tulsa, OK 74103</li>
+          <li>Come watch holiday movies, interactive obsticle course, and kids can make their own orniment at the Jollytown Craft Shop!</li>
+          <li>Free admission along with Santa meet and greet!</li>
+        </ul>
+        <div class="btn">
+          <h4>Learn More</h4>
+          <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cardContainer inactive">
+  <div class="card">
+    <div class="side front">
+      <div class="img winterwonderland"></div>
+      <div class="info">
+        <h2>Winter Wonderland at the Gathering Place!</h2>
+        <p>Features festive photo ops, story times, holiday train rides, and a Winter Wonderland workshop.</p>
+      </div>
+    </div>
+    <div class="side back">
+      <div class="info">
+        <h2>At a glance</h2>
+        <div class="star-rating" id="ratingContainer"></div>
+      <!-- Five stars -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFC324" width="24" height="24">
+          <path d="M0 0h24v24H0z" fill="none"/>
+          <path d="M12 2l2.5 6.5h6L15 9l2.5 6.5h-6L12 14 8.5 15.5h-6L9 9l-1.5-1.5h6L12 2zm0 2.898L13.937 9H11V5.5L9.5 4 11 2.5V1l2.898.001L12 4.898z"/>
+      </svg>
+        <ul>
+          <li>Guests can enjoy live music, happy hours, photos with Santa, story times, arts and crafts, game nights, gingerbread houses, and more!</li>
+          <li>Daily activites, for full list go to https://www.gatheringplace.org/winter.</li>
+        </ul>
+        <div class="btn">
+          <h4>Learn More</h4>
+          <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
+        </div>
+        <script>
+      function handleStarRating() {
+          var ratingContainer = document.getElementById('ratingContainer');
+
+          // Create a function to handle the click event on a star
+          function handleStarClick(starNumber) {
+              return function () {
+                  // Update the rating based on the clicked star
+                  updateRating(starNumber);
+              };
+          }
+
+          // Create a function to update the rating
+          function updateRating(selectedStars) {
+              // Remove existing stars
+              ratingContainer.innerHTML = '';
+
+              // Add selected stars
+              for (var i = 1; i <= 5; i++) {
+                  var star = document.createElement('i');
+                  star.classList.add('fas', i <= selectedStars ? 'fa-star' : 'fa-star-o');
+                  star.addEventListener('click', handleStarClick(i));
+                  ratingContainer.appendChild(star);
+              }
+
+              // Display the selected rating
+              var ratingText = document.createElement('p');
+              ratingText.textContent = 'Rating: ' + selectedStars + ' out of 5 stars';
+              ratingContainer.appendChild(ratingText);
+          }
+
+          // Initialize the rating with 0 stars
+          updateRating(0);
+      }
+
+      // Call the function to initialize the star rating system
+      handleStarRating();
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
