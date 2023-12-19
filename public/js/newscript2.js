@@ -1,18 +1,23 @@
 
-document.addEventListener('DOMContentLoaded', function() {
-  window.onload = setInterval(GameLoop, 1000 / 10); //10fps
-  
-      console.log('Page loaded.');
+document.addEventListener('DOMContentLoaded', function () {
+  window.onload = setInterval(GameLoop, 1000 / 10);
+
+  document.addEventListener('click', function (event) {
+    const card = event.target.closest('.card');
+    if (card) {
+      card.closest('.cardContainer').classList.toggle('inactive');
+    }
   });
+
+  console.log('Page loaded.');
+});
 
 const cards = document.querySelectorAll('.card');
 
 function transition() {
-  if (this.classList.contains('active')) {
-    this.classList.remove('active')
-  } else {
-    this.classList.add('active');
-  }
+  this.classList.toggle('active');
+  // Add the following line to ensure that the 'inactive' class is toggled as well
+  this.closest('.cardContainer').classList.toggle('inactive');
 }
 
 cards.forEach(card => card.addEventListener('click', transition));
