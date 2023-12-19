@@ -81,6 +81,7 @@ body {
   transform-style: preserve-3d;
   transform: translateZ(-100px);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  /* :after allows for a more performant box-shadow because only opacity is being animated. */
 }
 .card:after {
   content: "";
@@ -99,8 +100,7 @@ body {
 .card:hover:after {
   opacity: 1;
 }
-
-.side {
+.card .side {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   position: absolute;
@@ -109,16 +109,13 @@ body {
   border-radius: 5px;
   background-color: hsl(0, 0%, 100%);
 }
-
-.front {
+.card .front {
   z-index: 2;
 }
-
-.back {
+.card .back {
   transform: rotateY(180deg);
 }
-
-.info {
+.card .info {
   padding: 16px;
 }
 
@@ -130,13 +127,22 @@ body {
   width: 100%;
   height: 250px;
 }
-.front .neff {
+.front .img .rhema {
+  background-image: url(https://www.rhemalights.org/wp-content/uploads/2021/10/Lights7.jpg);
+}
+.front .img .jollytown {
+  background-image: url(https://bloximages.chicago2.vip.townnews.com/fox23.com/content/tncms/assets/v3/editorial/1/1d/11d4e6a8-9c85-11ee-98a6-77ccf9ea5dbc/657e5ea7d7a09.image.jpg);
+}
+.front .img .winterwonderland {
+  background-image: url(https://bloximages.newyork1.vip.townnews.com/tulsaworld.com/content/tncms/assets/v3/editorial/9/df/9dfcce33-9697-5740-908e-61748dafb7e5/5bfc86aa7d9cb.image.jpg);
+}
+.front .img .neff {
   background-image: url(https://bloximages.newyork1.vip.townnews.com/tulsaworld.com/content/tncms/assets/v3/editorial/b/a1/ba1f4698-55e1-11eb-af89-3fb83d8b6316/5fff5e679b7bc.image.jpg?crop=1843%2C968%2C0%2C78&resize=1200%2C630&order=crop%2Cresize);
 }
-.front .mayo {
+.front .img .mayo {
   background-image: url(https://static.wixstatic.com/media/569777_39b3c97f35a94a53a251970d6634bf9c~mv2.jpg/v1/fill/w_1050,h_998,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/569777_39b3c97f35a94a53a251970d6634bf9c~mv2.jpg);
 }
-.front .race {
+.front .img .race {
   background-image: url(https://raceintothenewyear.itsyourrace.com/PhotoPreview.ashx?pt=participant&id=19976563);
 }
 
@@ -159,7 +165,7 @@ body {
   margin: 1px 0 0 6px;
   transition: 0.3s ease-in-out;
 }
-.back .reviews:hover p {
+.back .reviews p:hover {
   color: #555;
 }
 .back li {
@@ -197,4 +203,4 @@ body {
   transition: all 0.3s ease-out;
 }
 
-/*# sourceMappingURL=nye.css.map */
+/*# sourceMappingURL=sampletest.css.map */
