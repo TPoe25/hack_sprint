@@ -2,15 +2,11 @@
 <a name="readme-top"></a>
 
 
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-
-
-
 
 
 <br />
@@ -34,8 +30,6 @@
 </div>
 
 
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -61,16 +55,9 @@
   </ol>
 </details>
 
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 Here we have created a webpage that shows the user various events around the Tulsa area during the holiday season.
-
-
-
-
 
 
 ## Getting Started
@@ -89,10 +76,6 @@ https://winter-hack-sprint-204d9.web.app/
 _For more examples, please refer to the [Documentation](https://winter-hack-sprint-204d9.web.app)_
 
 
-
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -107,12 +90,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 
-
-
-
-
-
-<!-- CONTACT -->
 ## Contact
 
 
@@ -121,21 +98,11 @@ Project Link: [https://github.com/tpoe25/hack_sprint](https://github.com/tpoe25/
 Project URL: https://winter-hack-sprint-204d9.web.app
 
 
-
-
-
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * []()Matt Krozel
 * []()Taylor Poe
 
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/tpoe25/hack_sprint.svg?style=for-the-badge
 [contributors-url]: https://github.com/tpoe25/hack_sprint/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/tpoe25/hack_sprint.svg?style=for-the-badge
@@ -146,10 +113,4 @@ Project URL: https://winter-hack-sprint-204d9.web.app
 [issues-url]: https://github.com/tpoe25/hack_sprint/issues
 [license-shield]: https://img.shields.io/github/license/tpoe25/hack_sprint.svg?style=for-the-badge
 [license-url]: https://github.com/tpoe25/hack_sprint/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
