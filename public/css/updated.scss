@@ -28,10 +28,17 @@
     padding: 0;
   }
   
+  h1 {
+    color: #106067;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
   h2, h4 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: $d1;
+    text-align: center;
   }
   
   h2 {
@@ -44,8 +51,9 @@
   p, li {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    color: $d2;
+    color: #eaeaea;
     line-height: 22px;
+    text-align: center;
   }
   
   ul, li {
@@ -181,7 +189,7 @@
         left: 0;
         right: 0;
         padding: 16px;
-        color: $d1;
+        color: hsl(0, 0%, 80%);
         text-align: center;
         background: rgba(0, 0, 0, 0.7); // Adjust the background color and opacity as needed
         border-bottom-left-radius: 5px;
@@ -309,7 +317,7 @@
     }
   }
 
-.animate-character {
+.animate-charcter {
     text-transform: uppercase;
     background-image: linear-gradient(
       -225deg,
