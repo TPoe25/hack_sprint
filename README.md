@@ -2,13 +2,7 @@
 <a name="readme-top"></a>
 
 
-<!-- PROJECT SHIELDS -->
-<!--
 
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -18,22 +12,20 @@
 
 
 
-<!-- PROJECT LOGO -->
+
 <br />
 <div align="center">
   <a href="https://github.com/tpoe25/hack_sprint">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Winter Hack Sprint</h3>
 
   <p align="center">
-    project_description
     <br />
-    <a href="https://github.com/tpoe25/hack_sprint"><strong>Explore the site »</strong></a>
+    <a href="https://winter-hack-sprint-204d9.web.app"><strong>Explore the site »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/tpoe25/hack_sprint">View Demo</a>
+    <a href="https://winter-hack-sprint-204d9.web.app">View Demo</a>
     ·
     <a href="https://github.com/tpoe25/hack_sprint/issues">Report Bug</a>
     ·
@@ -74,35 +66,28 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Here we have created a webpage that shows the user various events around the Tulsa area during the holiday season.
 
 
 
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may access our website locally.
+This is an example of how you may access our website locally. 
+
+Follow this URL https://winter-hack-sprint-204d9.web.app/
 
 ## Usage
 
-Simply follow the link using your choice of web browser that's connected to the internet and then the link will take you straight to our webpage!
+Simply follow the <a href='https://winter-hack-sprint-204d9.web.app'>link</a> using your choice of web browser that's connected to the internet and then the link will take you straight to our webpage!
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+https://winter-hack-sprint-204d9.web.app/
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+_For more examples, please refer to the [Documentation](https://winter-hack-sprint-204d9.web.app)_
+
 
 
 
@@ -121,16 +106,9 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -140,7 +118,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Project Link: [https://github.com/tpoe25/hack_sprint](https://github.com/tpoe25/hack_sprint)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Project URL: https://winter-hack-sprint-204d9.web.app
+
+
 
 
 
@@ -150,7 +130,7 @@ Project Link: [https://github.com/tpoe25/hack_sprint](https://github.com/tpoe25/
 * []()Matt Krozel
 * []()Taylor Poe
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
